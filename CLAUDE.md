@@ -16,8 +16,8 @@ Run from the repo root unless noted. Turbo fans these out to every workspace pac
 bun install          # install deps for all workspaces
 bun run dev          # turbo dev   — runs apps/web on Next.js dev server (persistent, uncached)
 bun run build        # turbo build — next build, depends on upstream package builds
-bun run lint         # turbo lint  — eslint in each workspace
-bun run format       # turbo format — prettier --write in each workspace
+bun run lint         # turbo lint  — biome lint . in each workspace
+bun run format       # turbo format — biome format --write . in each workspace
 bun run typecheck    # turbo typecheck — tsc --noEmit in each workspace
 ```
 
@@ -40,7 +40,7 @@ import { Button } from "@workspace/ui/components/button"
 ```
 
 ## Git and Development Rules
-
+**Atomic Commits Rule EVER**
 ### Branch conventions
 - feature/TICKET-ID-description
 - fix/TICKET-ID-description
@@ -58,9 +58,9 @@ import { Button } from "@workspace/ui/components/button"
 
 ### Commands
 - Install: npm install
-- Test: npm test
-- Lint: npm run lint
-- Build: npm run build
+- Test: bun run test
+- Lint: bun run lint
+- Build: bun run build
 
 ### PRs
 - Descriptive title
@@ -78,7 +78,7 @@ import { Button } from "@workspace/ui/components/button"
   - `@workspace/ui/lib/*` → `src/lib/*.ts`
   - `@workspace/ui/globals.css` → `src/styles/globals.css` (imported once in `apps/web/app/layout.tsx`)
   - `@workspace/ui/postcss.config` → `postcss.config.mjs`
-- **`packages/eslint-config`** and **`packages/typescript-config`** — shared, unbuilt config packages. `next.js` exports `nextJsConfig` (consumed as `@workspace/eslint-config/next-js`), layered on `base.js`; there's also `react-internal.js` for non-Next React packages. TS configs (`base.json`, `nextjs.json`, `react-library.json`) are extended by each workspace's `tsconfig.json`.
+- **`packages/typescript-config`** — shared, unbuilt TS config package. `base.json`, `nextjs.json`, and `react-library.json` are extended by each workspace's `tsconfig.json`.
 - **shadcn config** (`components.json` in both `apps/web` and `packages/ui`) is pinned to style `base-lyra`, `neutral` base color, and the `phosphor` icon library (`@phosphor-icons/react`) — match these when hand-writing components instead of generating them.
 - Path aliases in `apps/web/tsconfig.json`: `@/*` → files local to `apps/web`; `@workspace/ui/*` → `packages/ui/src/*` (used for TS resolution; runtime resolution goes through the package's `exports` map above).
-- Prettier is configured once at the repo root (`.prettierrc`) with `prettier-plugin-tailwindcss`, pointed at `packages/ui/src/styles/globals.css` as the Tailwind stylesheet, and recognizes `cn`/`cva` as class-name functions — this applies repo-wide, not per-workspace.
+- **Biome** (root `biome.json`) is the single source of lint/format config for the whole repo — there's no per-workspace config. It replaces ESLint + Prettier; `apps/web` and `packages/ui` each run it via their own `lint`/`format` scripts (`biome lint .` / `biome format --write .`). The `react`, `next`, and `turborepo` linter domains are enabled, plus the nursery `useSortedClasses` rule (for `cn`/`cva`/`clsx`) as the Tailwind-class-sorting replacement for `prettier-plugin-tailwindcss` — its autofix is unsafe, so run `biome check --write --unsafe .` to apply it.
