@@ -11,7 +11,8 @@ function parseAcceptLanguage(header: string): string[] {
     .split(",")
     .map((part) => {
       const [tag, qPart] = part.trim().split(";q=")
-      const quality = qPart ? Number.parseFloat(qPart) : 1
+      const parsedQuality = qPart ? Number.parseFloat(qPart) : 1
+      const quality = Number.isNaN(parsedQuality) ? 0 : parsedQuality
       return { tag: tag?.trim().toLowerCase() ?? "", quality }
     })
     .filter((entry) => entry.tag.length > 0)
