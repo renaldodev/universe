@@ -1,4 +1,9 @@
-import { Geist, JetBrains_Mono } from "next/font/google"
+import {
+  Geist,
+  JetBrains_Mono,
+  Noto_Sans_Symbols,
+  Space_Grotesk,
+} from "next/font/google"
 
 import "@workspace/ui/globals.css"
 import { cn } from "@workspace/ui/lib/utils"
@@ -14,6 +19,17 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
 })
 
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-display",
+})
+
+const notoSansSymbols = Noto_Sans_Symbols({
+  subsets: ["latin"],
+  weight: "700",
+  variable: "--font-symbols",
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,7 +43,9 @@ export default function RootLayout({
         "antialiased",
         fontSans.variable,
         "font-mono",
-        jetbrainsMono.variable
+        jetbrainsMono.variable,
+        spaceGrotesk.variable,
+        notoSansSymbols.variable
       )}
     >
       <body>

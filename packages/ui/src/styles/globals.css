@@ -48,6 +48,16 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
   --font-mono: var(--font-mono);
+  --font-display: var(--font-display);
+  --font-symbols: var(--font-symbols);
+  --color-port-bg: var(--port-bg);
+  --color-port-text-primary: var(--port-text-primary);
+  --color-port-text-secondary: var(--port-text-secondary);
+  --color-port-text-tertiary: var(--port-text-tertiary);
+  --color-port-divider: var(--port-divider);
+  --color-port-accent-systems: var(--port-accent-systems);
+  --color-port-accent-agents: var(--port-accent-agents);
+  --color-port-accent-craft: var(--port-accent-craft);
 }
 
 :root {
@@ -83,6 +93,14 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --port-bg: #fafaf8;
+  --port-text-primary: #17171a;
+  --port-text-secondary: #55554f;
+  --port-text-tertiary: #8a8a82;
+  --port-divider: #e1e1da;
+  --port-accent-systems: #1c7fa6;
+  --port-accent-agents: #c13e77;
+  --port-accent-craft: #6e4fd1;
 }
 
 .dark {
@@ -117,6 +135,14 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --port-bg: #0d0d0c;
+  --port-text-primary: #eaeae4;
+  --port-text-secondary: #8c8c86;
+  --port-text-tertiary: #5c5c57;
+  --port-divider: #2a2a27;
+  --port-accent-systems: #7fc7e8;
+  --port-accent-agents: #f2669b;
+  --port-accent-craft: #b79af5;
 }
 
 @layer base {
@@ -125,5 +151,16 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@keyframes caret-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
   }
 }
