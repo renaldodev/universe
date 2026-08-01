@@ -1,7 +1,5 @@
 "use client"
 
-import * as React from "react"
-
 import { LanguageSwitch } from "@/components/language-switch"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { TypewriterName } from "@/components/typewriter-name"
@@ -20,10 +18,6 @@ const projectAccents: Accent[] = ["agents", "systems", "craft", "agents"]
 
 function PortfolioContent({ locale }: { locale: Locale }) {
   const t = translations[locale]
-
-  React.useEffect(() => {
-    document.documentElement.lang = locale
-  }, [locale])
 
   return (
     <div className="min-h-svh w-full bg-port-bg text-port-text-primary">

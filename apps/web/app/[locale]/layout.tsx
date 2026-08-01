@@ -9,7 +9,7 @@ import {
 import "@workspace/ui/globals.css"
 import { cn } from "@workspace/ui/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
-import { siteUrl } from "@/lib/i18n"
+import { type Locale, locales, siteUrl } from "@/lib/i18n"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -67,14 +67,25 @@ const notoSansSymbols = Noto_Sans_Symbols({
   variable: "--font-symbols",
 })
 
-export default function RootLayout({
+function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
+async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode
+  params: Promise<{ locale: string }>
 }>) {
+  const { locale: rawLocale } = await params
+  const lang: Locale = locales.includes(rawLocale as Locale)
+    ? (rawLocale as Locale)
+    : "en"
+
   return (
     <html
-      lang="en"
+      lang={lang}
       suppressHydrationWarning
       className={cn(
         "antialiased",
@@ -91,3 +102,6 @@ export default function RootLayout({
     </html>
   )
 }
+
+export default RootLayout
+export { generateStaticParams }

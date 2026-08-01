@@ -6,6 +6,19 @@ import { type Locale, locales } from "@/lib/i18n"
 const COOKIE_NAME = "NEXT_LOCALE"
 const DEFAULT_LOCALE: Locale = "en"
 
+function parseAcceptLanguage(header: string): string[] {
+  return header
+    .split(",")
+    .map((part) => {
+      const [tag, qPart] = part.trim().split(";q=")
+      const quality = qPart ? Number.parseFloat(qPart) : 1
+      return { tag: tag?.trim().toLowerCase() ?? "", quality }
+    })
+    .filter((entry) => entry.tag.length > 0)
+    .sort((a, b) => b.quality - a.quality)
+    .map((entry) => entry.tag)
+}
+
 function resolveLocale(request: NextRequest): Locale {
   const cookieLocale = request.cookies.get(COOKIE_NAME)?.value
 
@@ -14,9 +27,15 @@ function resolveLocale(request: NextRequest): Locale {
   }
 
   const acceptLanguage = request.headers.get("accept-language") ?? ""
+  const preferredTags = parseAcceptLanguage(acceptLanguage)
 
-  if (acceptLanguage.toLowerCase().includes("pt")) {
-    return "pt"
+  for (const tag of preferredTags) {
+    const primarySubtag = tag.split("-")[0]
+    const match = locales.find((locale) => locale === primarySubtag)
+
+    if (match) {
+      return match
+    }
   }
 
   return DEFAULT_LOCALE

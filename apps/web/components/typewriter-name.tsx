@@ -12,14 +12,20 @@ function TypewriterName({
   const [count, setCount] = React.useState(0)
 
   React.useEffect(() => {
-    if (count >= text.length) {
-      return
-    }
+    setCount(0)
 
-    const timeout = setTimeout(() => setCount((c) => c + 1), 90)
+    const interval = setInterval(() => {
+      setCount((c) => {
+        if (c + 1 >= text.length) {
+          clearInterval(interval)
+          return text.length
+        }
+        return c + 1
+      })
+    }, 90)
 
-    return () => clearTimeout(timeout)
-  }, [count, text.length])
+    return () => clearInterval(interval)
+  }, [text])
 
   return (
     <h1 aria-label={text} className={className}>

@@ -38,9 +38,7 @@ async function Image({ params }: { params: Promise<{ locale: string }> }) {
           }}
         />
         <div style={{ fontSize: 22, letterSpacing: 2, color: "#8c8c86" }}>
-          {locale === "pt"
-            ? "DISPONÍVEL PARA NOVOS PROJETOS"
-            : "AVAILABLE FOR NEW PROJECTS"}
+          {t.statusLong}
         </div>
       </div>
 

@@ -4,10 +4,6 @@ import { notFound } from "next/navigation"
 import { PortfolioContent } from "@/components/portfolio-content"
 import { type Locale, locales, siteUrl, translations } from "@/lib/i18n"
 
-function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
-}
-
 async function generateMetadata({
   params,
 }: {
@@ -89,7 +85,9 @@ async function Page({ params }: { params: Promise<{ locale: string }> }) {
       <script
         type="application/ld+json"
         // biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD structured data must be inlined as a script tag; content is server-generated, not user input
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <PortfolioContent locale={locale} />
     </>
@@ -97,4 +95,4 @@ async function Page({ params }: { params: Promise<{ locale: string }> }) {
 }
 
 export default Page
-export { generateStaticParams, generateMetadata }
+export { generateMetadata }
