@@ -1,0 +1,4104 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "D76Bdp",
+      "x": 920,
+      "y": 0,
+      "name": "Portfolio Home - Simple",
+      "clip": true,
+      "width": 960,
+      "fill": "$port-bg",
+      "layout": "vertical",
+      "gap": 88,
+      "padding": [
+        96,
+        72,
+        80,
+        72
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "MuYl8",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "children": [
+            {
+              "type": "frame",
+              "id": "HbGUq",
+              "name": "Top Row",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Yo2Um",
+                  "name": "Kicker",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "M21Qr",
+                      "name": "Status Dot",
+                      "fill": "$port-accent-systems",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "gEDAj",
+                      "name": "Status Text",
+                      "fill": "$port-text-tertiary",
+                      "content": "AVAILABLE FOR NEW PROJECTS",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JYv32",
+                  "name": "Right Controls",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eZMlc",
+                      "name": "Language Switch",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GHuiy",
+                          "name": "PT",
+                          "fill": "$port-text-tertiary",
+                          "content": "PT",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "s3DyCy",
+                          "name": "Sep",
+                          "fill": "$port-text-tertiary",
+                          "content": "/",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l0bbi",
+                          "name": "EN",
+                          "fill": "$port-text-primary",
+                          "content": "EN",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "b5jQM",
+                      "name": "Divider",
+                      "fill": "$port-divider",
+                      "width": 1,
+                      "height": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SxZY2",
+                      "name": "Theme Switch",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "l9P3rX",
+                          "name": "Moon Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "moon",
+                          "library": "lucide",
+                          "fill": "$port-text-primary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "G2jY3",
+              "name": "Name",
+              "fill": "$port-text-primary",
+              "content": "Renaldo",
+              "lineHeight": 0.95,
+              "fontFamily": "$port-font-display",
+              "fontSize": 118,
+              "fontWeight": "700",
+              "letterSpacing": -3
+            },
+            {
+              "type": "frame",
+              "id": "cj5so",
+              "name": "Role Row",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Bsopo",
+                  "name": "Role Prefix",
+                  "fill": "$port-text-secondary",
+                  "content": "Software Engineer —",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wgHGR",
+                  "name": "Systems",
+                  "fill": "$port-accent-systems",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "QEy8B",
+                  "name": "Dot 1",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eZjlQ",
+                  "name": "Agents",
+                  "fill": "$port-accent-agents",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "FJd8k",
+                  "name": "Dot 2",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "cMHB1",
+                  "name": "Craft",
+                  "fill": "$port-accent-craft",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "xKmtC",
+              "name": "Intro",
+              "fill": "$port-text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Backend-leaning engineer. Most of my time goes into systems and AI agents, with enough frontend work to know when something feels off. I like problems that take a few tries to get right.",
+              "lineHeight": 1.55,
+              "fontFamily": "$port-font-display",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "UyWUL",
+              "name": "Stats",
+              "fill": "$port-text-tertiary",
+              "content": "3+ yrs experience  ·  20+ projects shipped  ·  5+ systems in production",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IffRV",
+          "name": "Skills Triptych",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Rg2fl",
+              "name": "Skill - Systems",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pQJcc",
+                  "name": "Index",
+                  "fill": "$port-accent-systems",
+                  "content": "01",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eQdnq",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "a8xs1P",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "APIs, databases, infrastructure — the stuff that has to hold up when nobody's watching.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "mcdB6",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Node · Postgres · Docker",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Kr67n",
+              "name": "Skill - Agents",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lyyeE",
+                  "name": "Index",
+                  "fill": "$port-accent-agents",
+                  "content": "02",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "S0n1sW",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "yfVtY",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LLM pipelines and automation that actually run unattended, not just demo well.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IFWOW",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Python · LangChain · RAG",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vZMsc",
+              "name": "Skill - Craft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tg5df",
+                  "name": "Index",
+                  "fill": "$port-accent-craft",
+                  "content": "03",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "k9iyZ3",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "f1ouP",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Frontend work I don't mind spending an extra afternoon getting right.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IGaja",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "React · Next.js · Figma",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gvEW4",
+          "name": "Selected Work",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "odbwe",
+              "name": "Work Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "SELECTED WORK",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "pwp5k",
+              "name": "Work List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V1rnTO",
+                  "name": "Project - AI Scheduling Agent",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pPwdb",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-agents",
+                      "content": "♟",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZRGVH",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P4QgX",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jML8B",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "AI Scheduling Agent",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "b2DTaC",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / LangChain",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "vLSMf",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Handles scheduling conflicts on its own, using patterns picked up from how people actually reschedule things.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kf8D2",
+                  "name": "Project - Transaction Analysis Platform",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t2F0z",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-systems",
+                      "content": "♞",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LtXXy",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nnP4k",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i96MHQ",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Transaction Analysis Platform",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZJF34",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "TypeScript / Kafka",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "OpzJC",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Processes financial transactions in real time. Built to handle serious volume without falling over.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kxCw7",
+                  "name": "Project - Component Library & Design System",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZW44d",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-craft",
+                      "content": "♝",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IGtpI",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "F1ZIA",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HLcKt",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Component Library & Design System",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TDRKY",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "React / Storybook",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ev8Ya",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A component library with visual regression tests built in, and no dependency bloat.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KQGi3",
+                  "name": "Project - Document Intelligence API",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cpEol",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-agents",
+                      "content": "♜",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w8kZ9",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h5poIl",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GNaci",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Document Intelligence API",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "w8hpjb",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / RAG",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "SxWzP",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reads through documents with RAG and answers questions with the sources attached.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "m4WM02",
+          "name": "Writing",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "clqZq",
+              "name": "Writing Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "WRITING",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "SzcSC",
+              "name": "Writing List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cXc70",
+                  "name": "Post - Why I stopped mocking every service in tests",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dhg8H",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rRN2G",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "Why I stopped mocking every service in tests",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ne7Hv",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Mar 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZcLOl",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Some tests should hit the real thing. Mocking everything just moves the bugs to production.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GFEuQ",
+                  "name": "Post - Agents that fail well",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a2Lz6Q",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "v85lq",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "Agents that fail well",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "F6y0tT",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Jan 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JRHt3",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Most of the work in an agent isn't the happy path — it's what happens when a step breaks.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hKEy2",
+                  "name": "Post - The backend decisions nobody notices",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gH83l",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DoHsE",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "The backend decisions nobody notices",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ho9Xt",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Sep 2025",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "l1IQIw",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The choices that never show up in a demo are usually the ones that matter most a year later.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l0mFAW",
+              "name": "Read All Link",
+              "gap": 8,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Xk8PO",
+                  "name": "Arrow",
+                  "fill": "$port-accent-systems",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ke3Vg",
+                  "name": "Link Label",
+                  "fill": "$port-accent-systems",
+                  "content": "Read all posts",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tiuJ8",
+          "name": "Timeline",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "Jbv1P",
+              "name": "Timeline Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "HOW I GOT HERE",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "iGZvU",
+              "name": "Timeline Flow",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h9b2N",
+                  "name": "Step - Developer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t39jiu",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2021",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mWHXw",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Developer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "y4WE0",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "FZZxa",
+                  "name": "Step - Full-Stack @ Porto",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UNDCe",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2022",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b6rprm",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Full-Stack — Porto",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "x9LWzH",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Z2UTJd",
+                  "name": "Step - Engineer @ Tuamotu",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M9Vca",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2023",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yiERc",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Engineer — Tuamotu",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "j4ddWZ",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jyFSX",
+                  "name": "Step - Strategic Engineer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ODxwa",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2024—",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FBv1q",
+                      "name": "Role",
+                      "fill": "$port-text-primary",
+                      "content": "Strategic Engineer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yXZ4Y",
+          "name": "Contact",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "JYxE7",
+              "name": "Contact Statement",
+              "fill": "$port-text-primary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Working on something worth building? I'd like to hear about it.",
+              "lineHeight": 1.15,
+              "fontFamily": "$port-font-display",
+              "fontSize": 34,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "WVM7Y",
+              "name": "Links Row",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "smsdS",
+                  "name": "Email",
+                  "fill": "$port-accent-systems",
+                  "content": "Email",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IcBPZ",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "p3BugC",
+                  "name": "LinkedIn",
+                  "fill": "$port-accent-agents",
+                  "content": "LinkedIn",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NHzjX",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DeU4O",
+                  "name": "GitHub",
+                  "fill": "$port-accent-craft",
+                  "content": "GitHub",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fqUiQ",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            32,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "LRgRO",
+              "name": "Copyright",
+              "fill": "$port-text-tertiary",
+              "content": "© 2026 Renaldo",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "bFGWk",
+              "name": "Signature",
+              "fill": "$port-text-tertiary",
+              "content": "Porto, Portugal · open to new work",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MTa73",
+      "x": 2000,
+      "y": 0,
+      "name": "Portfolio Home - Light",
+      "theme": {
+        "mode": "light"
+      },
+      "clip": true,
+      "width": 960,
+      "fill": "$port-bg",
+      "layout": "vertical",
+      "gap": 88,
+      "padding": [
+        96,
+        72,
+        80,
+        72
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "lwDYt",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "children": [
+            {
+              "type": "frame",
+              "id": "BvKpR",
+              "name": "Top Row",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GgZeI",
+                  "name": "Kicker",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "T69F9",
+                      "name": "Status Dot",
+                      "fill": "$port-accent-systems",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "bYMTP",
+                      "name": "Status Text",
+                      "fill": "$port-text-tertiary",
+                      "content": "AVAILABLE FOR NEW PROJECTS",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xMO3r",
+                  "name": "Right Controls",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rze0I",
+                      "name": "Language Switch",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JNFlO",
+                          "name": "PT",
+                          "fill": "$port-text-tertiary",
+                          "content": "PT",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "ExFma",
+                          "name": "Sep",
+                          "fill": "$port-text-tertiary",
+                          "content": "/",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sPtBG",
+                          "name": "EN",
+                          "fill": "$port-text-primary",
+                          "content": "EN",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "NopZ6",
+                      "name": "Divider",
+                      "fill": "$port-divider",
+                      "width": 1,
+                      "height": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XphCy",
+                      "name": "Theme Switch",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "m7fpVo",
+                          "name": "Moon Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "sun",
+                          "library": "lucide",
+                          "fill": "$port-text-primary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "vqtfk",
+              "name": "Name",
+              "fill": "$port-text-primary",
+              "content": "Renaldo",
+              "lineHeight": 0.95,
+              "fontFamily": "$port-font-display",
+              "fontSize": 118,
+              "fontWeight": "700",
+              "letterSpacing": -3
+            },
+            {
+              "type": "frame",
+              "id": "GclIu",
+              "name": "Role Row",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PbXWC",
+                  "name": "Role Prefix",
+                  "fill": "$port-text-secondary",
+                  "content": "Software Engineer —",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MNIsD",
+                  "name": "Systems",
+                  "fill": "$port-accent-systems",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kL3Wo",
+                  "name": "Dot 1",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OZl81",
+                  "name": "Agents",
+                  "fill": "$port-accent-agents",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "fXMAS",
+                  "name": "Dot 2",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "g2qaJ4",
+                  "name": "Craft",
+                  "fill": "$port-accent-craft",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "x4CeG",
+              "name": "Intro",
+              "fill": "$port-text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Backend-leaning engineer. Most of my time goes into systems and AI agents, with enough frontend work to know when something feels off. I like problems that take a few tries to get right.",
+              "lineHeight": 1.55,
+              "fontFamily": "$port-font-display",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "eD4JC",
+              "name": "Stats",
+              "fill": "$port-text-tertiary",
+              "content": "3+ yrs experience  ·  20+ projects shipped  ·  5+ systems in production",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rrjdC",
+          "name": "Skills Triptych",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "YoSh2",
+              "name": "Skill - Systems",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dLrf6",
+                  "name": "Index",
+                  "fill": "$port-accent-systems",
+                  "content": "01",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "G7b8n",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "VcY6F",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "APIs, databases, infrastructure — the stuff that has to hold up when nobody's watching.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xyAEL",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Node · Postgres · Docker",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RGkXj",
+              "name": "Skill - Agents",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FZXa5",
+                  "name": "Index",
+                  "fill": "$port-accent-agents",
+                  "content": "02",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gasWZ",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "T4RcG",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LLM pipelines and automation that actually run unattended, not just demo well.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "l26mB0",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Python · LangChain · RAG",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H9WeU",
+              "name": "Skill - Craft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ySwvU",
+                  "name": "Index",
+                  "fill": "$port-accent-craft",
+                  "content": "03",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "teizO",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "iLBAi",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Frontend work I don't mind spending an extra afternoon getting right.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XDXuB",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "React · Next.js · Figma",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D37kNU",
+          "name": "Selected Work",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "iIs4I",
+              "name": "Work Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "SELECTED WORK",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "z6hdAR",
+              "name": "Work List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C8NUd",
+                  "name": "Project - AI Scheduling Agent",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Nyy2k",
+                      "name": "Index",
+                      "opacity": 0.45,
+                      "fill": "$port-accent-agents",
+                      "content": "♟",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cPZZd",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cNEG8",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "w086vW",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "AI Scheduling Agent",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ii38T",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / LangChain",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "QtDWG",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Handles scheduling conflicts on its own, using patterns picked up from how people actually reschedule things.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zijtY",
+                  "name": "Project - Transaction Analysis Platform",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yMN6c",
+                      "name": "Index",
+                      "opacity": 0.45,
+                      "fill": "$port-accent-systems",
+                      "content": "♞",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pi04Q",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "V08FHv",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TRIJG",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Transaction Analysis Platform",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IxNZq",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "TypeScript / Kafka",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "yYPy9",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Processes financial transactions in real time. Built to handle serious volume without falling over.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tglJw",
+                  "name": "Project - Component Library & Design System",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fmKPJ",
+                      "name": "Index",
+                      "opacity": 0.45,
+                      "fill": "$port-accent-craft",
+                      "content": "♝",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qXH7b",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UySvH",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "f3v2u",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Component Library & Design System",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NU7xV",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "React / Storybook",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "KPW4j",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A component library with visual regression tests built in, and no dependency bloat.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UL9Dr",
+                  "name": "Project - Document Intelligence API",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DnLEe",
+                      "name": "Index",
+                      "opacity": 0.45,
+                      "fill": "$port-accent-agents",
+                      "content": "♜",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 44,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kkQed",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "F6MEm",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "e0Xv2a",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "content": "Document Intelligence API",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mL9Mg",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / RAG",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "IrCIy",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reads through documents with RAG and answers questions with the sources attached.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KQZz3",
+          "name": "Writing",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "ui8Sg",
+              "name": "Writing Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "WRITING",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "oMSID",
+              "name": "Writing List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wn5uL",
+                  "name": "Post - Why I stopped mocking every service in tests",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "udj0A",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jqMQd",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "Why I stopped mocking every service in tests",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l4ELbu",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Mar 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VuPXH",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Some tests should hit the real thing. Mocking everything just moves the bugs to production.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GmmWB",
+                  "name": "Post - Agents that fail well",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UzNHW",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E9E3qq",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "Agents that fail well",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Cl935",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Jan 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FufAy",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Most of the work in an agent isn't the happy path — it's what happens when a step breaks.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pgIDC",
+                  "name": "Post - The backend decisions nobody notices",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cx5qv",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OIywL",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 600,
+                          "content": "The backend decisions nobody notices",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WWbXu",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Sep 2025",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LCUjL",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The choices that never show up in a demo are usually the ones that matter most a year later.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g1CGYs",
+              "name": "Read All Link",
+              "gap": 8,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rYGmG",
+                  "name": "Arrow",
+                  "fill": "$port-accent-systems",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BfoRd",
+                  "name": "Link Label",
+                  "fill": "$port-accent-systems",
+                  "content": "Read all posts",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o922CZ",
+          "name": "Timeline",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "xRM9n",
+              "name": "Timeline Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "HOW I GOT HERE",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "yWqeT",
+              "name": "Timeline Flow",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lPiF4",
+                  "name": "Step - Developer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pLY7h",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2021",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G2u8B",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Developer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "io591",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "H3iqf",
+                  "name": "Step - Full-Stack @ Porto",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ShvHw",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2022",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O6haCs",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Full-Stack — Porto",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "QayBG",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "BQeh6",
+                  "name": "Step - Engineer @ Tuamotu",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XXNC9",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2023",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iuq2u",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Engineer — Tuamotu",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "uiLU3",
+                  "name": "Arrow",
+                  "fill": "$port-text-tertiary",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "KSHvl",
+                  "name": "Step - Strategic Engineer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X9WElN",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2024—",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jN3xt",
+                      "name": "Role",
+                      "fill": "$port-text-primary",
+                      "content": "Strategic Engineer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fnja8",
+          "name": "Contact",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "m9XdM",
+              "name": "Contact Statement",
+              "fill": "$port-text-primary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Working on something worth building? I'd like to hear about it.",
+              "lineHeight": 1.15,
+              "fontFamily": "$port-font-display",
+              "fontSize": 34,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "iWTY5",
+              "name": "Links Row",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OFaR8",
+                  "name": "Email",
+                  "fill": "$port-accent-systems",
+                  "content": "Email",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ilJVD",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yopo9",
+                  "name": "LinkedIn",
+                  "fill": "$port-accent-agents",
+                  "content": "LinkedIn",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M64CY",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "h5XXal",
+                  "name": "GitHub",
+                  "fill": "$port-accent-craft",
+                  "content": "GitHub",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TeZSJ",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            32,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BD9iK",
+              "name": "Copyright",
+              "fill": "$port-text-tertiary",
+              "content": "© 2026 Renaldo",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "hWC7C",
+              "name": "Signature",
+              "fill": "$port-text-tertiary",
+              "content": "Porto, Portugal · open to new work",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zY2gl",
+      "x": 920,
+      "y": 2598,
+      "name": "Portfolio Home - Mobile",
+      "clip": true,
+      "width": 390,
+      "fill": "$port-bg",
+      "layout": "vertical",
+      "gap": 56,
+      "padding": [
+        64,
+        20,
+        56,
+        20
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "LCg7O",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "b0cuE",
+              "name": "Top Row",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Esv6i",
+                  "name": "Kicker",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "iIXQk",
+                      "name": "Status Dot",
+                      "fill": "$port-accent-systems",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vm1fK",
+                      "name": "Status Text",
+                      "fill": "$port-text-tertiary",
+                      "content": "AVAILABLE FOR WORK",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KhgOf",
+                  "name": "Right Controls",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xSNWx",
+                      "name": "Language Switch",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jqfzl",
+                          "name": "PT",
+                          "fill": "$port-text-tertiary",
+                          "content": "PT",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "gjHaf",
+                          "name": "Sep",
+                          "fill": "$port-text-tertiary",
+                          "content": "/",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f8jqk",
+                          "name": "EN",
+                          "fill": "$port-text-primary",
+                          "content": "EN",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "e2Ve6L",
+                      "name": "Divider",
+                      "fill": "$port-divider",
+                      "width": 1,
+                      "height": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tiCkW",
+                      "name": "Theme Switch",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "OtNmX",
+                          "name": "Moon Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "moon",
+                          "library": "lucide",
+                          "fill": "$port-text-primary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "XQ0BF",
+              "name": "Name",
+              "fill": "$port-text-primary",
+              "content": "Renaldo",
+              "lineHeight": 0.95,
+              "fontFamily": "$port-font-display",
+              "fontSize": 58,
+              "fontWeight": "700",
+              "letterSpacing": -1.5
+            },
+            {
+              "type": "frame",
+              "id": "ACinG",
+              "name": "Role Row",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NHsW4",
+                  "name": "Role Prefix",
+                  "fill": "$port-text-secondary",
+                  "content": "Engineer —",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "e7gEPy",
+                  "name": "Systems",
+                  "fill": "$port-accent-systems",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "raho8",
+                  "name": "Dot 1",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PtgN3",
+                  "name": "Agents",
+                  "fill": "$port-accent-agents",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jMiC4",
+                  "name": "Dot 2",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KRImm",
+                  "name": "Craft",
+                  "fill": "$port-accent-craft",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Y54pD7",
+              "name": "Intro",
+              "fill": "$port-text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Backend-leaning engineer. Most of my time goes into systems and AI agents, with enough frontend work to know when something feels off. I like problems that take a few tries to get right.",
+              "lineHeight": 1.55,
+              "fontFamily": "$port-font-display",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "WWiql",
+              "name": "Stats",
+              "fill": "$port-text-tertiary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "3+ yrs experience  ·  20+ projects shipped  ·  5+ systems in production",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tgR1o",
+          "name": "Skills Triptych",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "QNdGl",
+              "name": "Skill - Systems",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PQUdW",
+                  "name": "Index",
+                  "fill": "$port-accent-systems",
+                  "content": "01",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nXaKf",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Systems",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "e1YJr",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "APIs, databases, infrastructure — the stuff that has to hold up when nobody's watching.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "K7AqI",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Node · Postgres · Docker",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iLVcb",
+              "name": "Skill - Agents",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R9P0UI",
+                  "name": "Index",
+                  "fill": "$port-accent-agents",
+                  "content": "02",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Q5ab5",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Agents",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "J5Bbgl",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LLM pipelines and automation that actually run unattended, not just demo well.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "f570b",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "Python · LangChain · RAG",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SqVza",
+              "name": "Skill - Craft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e6TBij",
+                  "name": "Index",
+                  "fill": "$port-accent-craft",
+                  "content": "03",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QPOgn",
+                  "name": "Title",
+                  "fill": "$port-text-primary",
+                  "content": "Craft",
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "szu2l",
+                  "name": "Description",
+                  "fill": "$port-text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Frontend work I don't mind spending an extra afternoon getting right.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$port-font-display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZGIDg",
+                  "name": "Stack",
+                  "fill": "$port-text-tertiary",
+                  "content": "React · Next.js · Figma",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NIeCu",
+          "name": "Selected Work",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "PJy9w",
+              "name": "Work Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "SELECTED WORK",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "lSoQH",
+              "name": "Work List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b9Wt7f",
+                  "name": "Project - AI Scheduling Agent",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z9wxJ",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-agents",
+                      "content": "♟",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 34,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VSykO",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fOIqb",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kviS1",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI Scheduling Agent",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "y9XX7",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / LangChain",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "w36AS",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Handles scheduling conflicts on its own, using patterns picked up from how people actually reschedule things.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dCgnY",
+                  "name": "Project - Transaction Analysis Platform",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dPxib",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-systems",
+                      "content": "♞",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 34,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Fru0i",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "H1JENh",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "E9IPtb",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Transaction Analysis Platform",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "l4B60",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "TypeScript / Kafka",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Oa1LN",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Processes financial transactions in real time. Built to handle serious volume without falling over.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o0VHbr",
+                  "name": "Project - Component Library & Design System",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zB7ji",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-craft",
+                      "content": "♝",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 34,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J9Rwrn",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SFafk",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eDhxM",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Component Library & Design System",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GaDDC",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "React / Storybook",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "CMMw5",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A component library with visual regression tests built in, and no dependency bloat.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MaPkl",
+                  "name": "Project - Document Intelligence API",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w7URm",
+                      "name": "Index",
+                      "opacity": 0.28,
+                      "fill": "$port-accent-agents",
+                      "content": "♜",
+                      "fontFamily": "Noto Sans Symbols",
+                      "fontSize": 34,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F0eLy",
+                      "name": "Text Col",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GFUja",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K4k7Yp",
+                              "name": "Title",
+                              "fill": "$port-text-primary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Document Intelligence API",
+                              "fontFamily": "$port-font-display",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "O1YQP",
+                              "name": "Tag",
+                              "fill": "$port-text-tertiary",
+                              "content": "Python / RAG",
+                              "fontFamily": "$port-font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "KaENY",
+                          "name": "Description",
+                          "fill": "$port-text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reads through documents with RAG and answers questions with the sources attached.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xmZ5I",
+          "name": "Writing",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "xGtcW",
+              "name": "Writing Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "WRITING",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "pFBww",
+              "name": "Writing List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aIKhF",
+                  "name": "Post - Why I stopped mocking every service in tests",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dBLlr",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YBnfp",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Why I stopped mocking every service in tests",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NQBJ9",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Mar 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "q2undW",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Some tests should hit the real thing. Mocking everything just moves the bugs to production.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d4yVh",
+                  "name": "Post - Agents that fail well",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YPsQg",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "t7Ou38",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agents that fail well",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K24qYd",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Jan 2026",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WOgCu",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Most of the work in an agent isn't the happy path — it's what happens when a step breaks.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z7WRoN",
+                  "name": "Post - The backend decisions nobody notices",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D0hNJ",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o70ZEx",
+                          "name": "Title",
+                          "fill": "$port-text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The backend decisions nobody notices",
+                          "fontFamily": "$port-font-display",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G84Dm",
+                          "name": "Date",
+                          "fill": "$port-text-tertiary",
+                          "content": "Sep 2025",
+                          "fontFamily": "$port-font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "laKaZ",
+                      "name": "Description",
+                      "fill": "$port-text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The choices that never show up in a demo are usually the ones that matter most a year later.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nJYkP",
+              "name": "Read All Link",
+              "gap": 8,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f7XYO",
+                  "name": "Arrow",
+                  "fill": "$port-accent-systems",
+                  "content": "→",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "E6cXd6",
+                  "name": "Link Label",
+                  "fill": "$port-accent-systems",
+                  "content": "Read all posts",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F3kEx0",
+          "name": "Timeline",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "D699tw",
+              "name": "Timeline Kicker",
+              "fill": "$port-text-tertiary",
+              "content": "HOW I GOT HERE",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "F8wU7",
+              "name": "Timeline Flow",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EnHDf",
+                  "name": "Step - Developer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QnASA",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2021",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C6bNJ",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Developer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tRXvM",
+                  "name": "Step - Full-Stack @ Porto",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c0lmu",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2022",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KiVOd",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Full-Stack — Porto",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q9N1My",
+                  "name": "Step - Engineer @ Tuamotu",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RQTSk",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2023",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cmE0y",
+                      "name": "Role",
+                      "fill": "$port-text-secondary",
+                      "content": "Engineer — Tuamotu",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ItIDM",
+                  "name": "Step - Strategic Engineer",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vx2Jj",
+                      "name": "Year",
+                      "fill": "$port-accent-systems",
+                      "content": "2024—",
+                      "fontFamily": "$port-font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j3hjcD",
+                      "name": "Role",
+                      "fill": "$port-text-primary",
+                      "content": "Strategic Engineer",
+                      "fontFamily": "$port-font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xheBY",
+          "name": "Contact",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "Wo9cM",
+              "name": "Contact Statement",
+              "fill": "$port-text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Working on something worth building? I'd like to hear about it.",
+              "lineHeight": 1.15,
+              "fontFamily": "$port-font-display",
+              "fontSize": 26,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "flEJj",
+              "name": "Links Row",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rfgm1",
+                  "name": "Email",
+                  "fill": "$port-accent-systems",
+                  "content": "Email",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Qg538",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "mb0iL",
+                  "name": "LinkedIn",
+                  "fill": "$port-accent-agents",
+                  "content": "LinkedIn",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VD8nR",
+                  "name": "Sep",
+                  "fill": "$port-text-tertiary",
+                  "content": "·",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "EM4Wf",
+                  "name": "GitHub",
+                  "fill": "$port-accent-craft",
+                  "content": "GitHub",
+                  "fontFamily": "$port-font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hWqOu",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            32,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "l3MFeS",
+              "name": "Copyright",
+              "fill": "$port-text-tertiary",
+              "content": "© 2026 Renaldo",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "PwXk3",
+              "name": "Signature",
+              "fill": "$port-text-tertiary",
+              "content": "Porto, Portugal · open to new work",
+              "fontFamily": "$port-font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "dark",
+      "light"
+    ]
+  },
+  "variables": {
+    "port-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0D0D0C",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#FAFAF8",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-text-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EAEAE4",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#17171A",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-text-secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8C8C86",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#55554F",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-text-tertiary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#5C5C57",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#8A8A82",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-accent": {
+      "type": "color",
+      "value": "#8FB4E0"
+    },
+    "port-divider": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#2A2A27",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#E1E1DA",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "port-accent-systems": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7FC7E8",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#1C7FA6",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-accent-agents": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2669B",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#C13E77",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-accent-craft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#B79AF5",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#6E4FD1",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "port-font-display": {
+      "type": "string",
+      "value": "Space Grotesk"
+    }
+  },
+  "fileToken": "f467233b-26f2-430c-a0b7-a96ad27e1da3"
+}

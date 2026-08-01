@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Turborepo monorepo based on the shadcn/ui monorepo template. Currently contains a single Next.js app (`apps/web`) and a shared UI package (`packages/ui`). Package manager is **bun** (`packageManager: bun@1.3.10`), not pnpm/npm/yarn.
 
-**Important: the installed `next` version (16.2.6) is not the Next.js you may know from training data** — APIs, conventions, and file structure may differ. Before writing any Next.js-specific code (routing, config, data fetching, etc.), read the relevant guide under `node_modules/next/dist/docs/` and heed any deprecation notices there.
+**Important: the installed `next` version (16.2.6) is not the Next.js you may know from training data** — APIs, conventions, and file structure may differ. Before writing any Next.js-specific code (routing, config, data fetching, etc.), read the relevant guide under `apps/web/node_modules/next/dist/docs/` (that's where `next` is an actual dependency; the root `node_modules/next` doesn't exist) and heed any deprecation notices there. Confirmed example: middleware was renamed to `proxy` in v16 — the file must be `proxy.ts` (not `middleware.ts`) exporting a function named/default-exported `proxy`.
 
 ## Commands
 
@@ -76,9 +76,11 @@ import { Button } from "@workspace/ui/components/button"
   - `@workspace/ui/components/*` → `src/components/*.tsx`
   - `@workspace/ui/hooks/*` → `src/hooks/*.ts`
   - `@workspace/ui/lib/*` → `src/lib/*.ts`
-  - `@workspace/ui/globals.css` → `src/styles/globals.css` (imported once in `apps/web/app/layout.tsx`)
+  - `@workspace/ui/globals.css` → `src/styles/globals.css` (imported once in `apps/web/app/[locale]/layout.tsx`)
   - `@workspace/ui/postcss.config` → `postcss.config.mjs`
 - **`packages/typescript-config`** — shared, unbuilt TS config package. `base.json`, `nextjs.json`, and `react-library.json` are extended by each workspace's `tsconfig.json`.
 - **shadcn config** (`components.json` in both `apps/web` and `packages/ui`) is pinned to style `base-lyra`, `neutral` base color, and the `phosphor` icon library (`@phosphor-icons/react`) — match these when hand-writing components instead of generating them.
 - Path aliases in `apps/web/tsconfig.json`: `@/*` → files local to `apps/web`; `@workspace/ui/*` → `packages/ui/src/*` (used for TS resolution; runtime resolution goes through the package's `exports` map above).
 - **Biome** (root `biome.json`) is the single source of lint/format config for the whole repo — there's no per-workspace config. It replaces ESLint + Prettier; `apps/web` and `packages/ui` each run it via their own `lint`/`format` scripts (`biome lint .` / `biome format --write .`). The `react`, `next`, and `turborepo` linter domains are enabled, plus the nursery `useSortedClasses` rule (for `cn`/`cva`/`clsx`) as the Tailwind-class-sorting replacement for `prettier-plugin-tailwindcss` — its autofix is unsafe, so run `biome check --write --unsafe .` to apply it.
+- **i18n / routing**: the homepage lives at `apps/web/app/[locale]/page.tsx` (`en`/`pt`, see `apps/web/lib/i18n.ts` for the locale list and `siteUrl`). `apps/web/proxy.ts` redirects bare `/` to `/en` or `/pt` based on a `NEXT_LOCALE` cookie (set by `components/language-switch.tsx`) or the `Accept-Language` header. Page content lives in `components/portfolio-content.tsx`, a client component taking `locale` as a prop — `[locale]/page.tsx` itself stays a server component so it can export `generateMetadata`.
+- **SEO**: production domain is `https://renaldo.dev` (`siteUrl` in `lib/i18n.ts`, also `metadataBase` in `app/[locale]/layout.tsx` — update both if the domain changes). Per-locale metadata (title/description/OG/Twitter/hreflang) comes from `generateMetadata` in `[locale]/page.tsx`, sourced from each locale's `seo` field in `lib/i18n.ts`. `app/robots.ts`, `app/sitemap.ts`, and `app/manifest.ts` are generated Next.js file-convention routes. `app/icon.tsx`, `app/apple-icon.tsx`, and `app/[locale]/opengraph-image.tsx` (+ `twitter-image.tsx`, which just re-exports it) are rendered via `next/og`'s `ImageResponse` — no static image assets to keep in sync.
