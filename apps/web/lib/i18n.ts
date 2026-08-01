@@ -2,7 +2,10 @@ export const locales = ["en", "pt"] as const
 
 export type Locale = (typeof locales)[number]
 
+export const siteUrl = "https://renaldo.dev"
+
 export type Translation = {
+  seo: { title: string; description: string; jobTitle: string }
   statusShort: string
   statusLong: string
   roleShort: string
@@ -25,6 +28,12 @@ export type Translation = {
 
 export const translations: Record<Locale, Translation> = {
   en: {
+    seo: {
+      title: "Software Engineer — Systems, Agents & Craft",
+      description:
+        "Renaldo Mateus is a backend-leaning software engineer based in Porto, Portugal, working on systems and AI agents.",
+      jobTitle: "Software Engineer",
+    },
     statusShort: "AVAILABLE FOR WORK",
     statusLong: "AVAILABLE FOR NEW PROJECTS",
     roleShort: "Engineer —",
@@ -116,6 +125,12 @@ export const translations: Record<Locale, Translation> = {
     footerSignature: "Porto, Portugal · open to new work",
   },
   pt: {
+    seo: {
+      title: "Engenheiro de Software — Sistemas, Agentes e Craft",
+      description:
+        "Renaldo Mateus é engenheiro de software com foco em backend, baseado no Porto, Portugal, a trabalhar em sistemas e agentes de IA.",
+      jobTitle: "Engenheiro de Software",
+    },
     statusShort: "DISPONÍVEL PARA TRABALHO",
     statusLong: "DISPONÍVEL PARA NOVOS PROJETOS",
     roleShort: "Engenheiro —",
